@@ -9,4 +9,9 @@ import scrapy
 class FoxscrapperItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    time = scrapy.Field()
+    title = scrapy.Field()
+    subtitle = scrapy.Field()
+    text = scrapy.Field()
+    
+
